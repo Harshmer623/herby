@@ -100,7 +100,7 @@ document.getElementById('fileInput').addEventListener('change', function (event)
 
 form.onsubmit = async (ev) => {
   ev.preventDefault();
-  output.textContent = 'Analyze...';
+  output.textContent = 'Analyzing...';
   getSelectedRole();
 
   try {
